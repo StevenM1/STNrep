@@ -131,7 +131,7 @@ axis(1, 1:3, labels=c('C', 'N', 'I'), mgp=c(2,.75,0))
 mtext('Cue', side=1, line=2, cex=par()$cex)
 plotLines(means=mrtsM[mrtsM$coherence=='low'&mrtsM$acc==FALSE,'RT'], ses=mrtsSE[mrtsSE$coherence=='low'&mrtsM$acc==FALSE,'RT'])
 plotLines(means=mrtsM[mrtsM$coherence=='high'&mrtsM$acc==FALSE,'RT'], ses=mrtsSE[mrtsSE$coherence=='high'&mrtsM$acc==FALSE,'RT'], lty=2)
-legend('bottomleft', c('Easy', 'Hard'), lty=c(1,2), pch=c(19, 19), bty='n', title='Difficulty')
+legend('bottomleft', c('Easy', 'Hard'), lty=c(2,1), pch=c(19, 19), bty='n', title='Difficulty')
 
 
 # BPIC differences --------------------------------------------------------
@@ -221,7 +221,7 @@ axis(1, 1:3, labels=c('C', 'N', 'I'), mgp=c(2,.75,0))
 mtext('Cue', side=1, line=2, cex=par()$cex)
 plotLines(means=mrtsM[mrtsM$coherence=='low'&mrtsM$acc==FALSE,'RT'], ses=mrtsSE[mrtsSE$coherence=='low'&mrtsM$acc==FALSE,'RT'])
 plotLines(means=mrtsM[mrtsM$coherence=='high'&mrtsM$acc==FALSE,'RT'], ses=mrtsSE[mrtsSE$coherence=='high'&mrtsM$acc==FALSE,'RT'], lty=2)
-legend('bottomleft', c('Easy', 'Hard'), lty=c(1,2), pch=c(19, 19), bty='n', title='Difficulty')
+legend('bottomleft', c('Easy', 'Hard'), lty=c(2,1), pch=c(19, 19), bty='n', title='Difficulty')
 
 
 # BPIC differences --------------------------------------------------------
@@ -306,7 +306,7 @@ axis(1, 1:3, labels=c('C', 'N', 'I'), mgp=c(2,.75,0))
 mtext('Cue', side=1, line=2, cex=par()$cex)
 plotLines(means=mrtsM[mrtsM$coherence=='low'&mrtsM$acc==FALSE,'RT'], ses=mrtsSE[mrtsSE$coherence=='low'&mrtsM$acc==FALSE,'RT'])
 plotLines(means=mrtsM[mrtsM$coherence=='high'&mrtsM$acc==FALSE,'RT'], ses=mrtsSE[mrtsSE$coherence=='high'&mrtsM$acc==FALSE,'RT'], lty=2)
-legend('bottomleft', c('Easy', 'Hard'), lty=c(1,2), pch=c(19, 19), bty='n', title='Difficulty')
+legend('bottomleft', c('Easy', 'Hard'), lty=c(2,1), pch=c(19, 19), bty='n', title='Difficulty')
 
 
 # BPIC differences --------------------------------------------------------
